@@ -1,0 +1,47 @@
+body {
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Silkscreen', cursive;
+}
+
+header {
+    background-color: blueviolet;
+    border: 10px solid salmon;
+    padding: 20px;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+
+}
+
+nav a {
+    background-color: red;
+    font-size: 24px;
+}
+
+nav a:hover {
+    color: green;
+}
+
+.section-header {
+    background-color: salmon;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    background-color: cyan;
+    padding: 10px;
+}
+
+.image-section img {
+    width: 200px;
+}
