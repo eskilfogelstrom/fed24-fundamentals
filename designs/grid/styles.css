@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+.quotes-grid {
+    display: flex;
+}
+
+.quotes-grid-column {
+    width: 50%;
+    padding: 0 0.5rem;
+}
+
+.quotes-grid-column-large {
+    display: none;
+}
+
+.quote {
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #aaa;
+    border-radius: 0.5rem;
+}
+
+
+@media screen and (min-width: 700px) {
+    .quotes-grid-column {
+        width: 33.33%;
+    }
+
+    .quotes-grid-column-large {
+        display: block;
+    }
+}
